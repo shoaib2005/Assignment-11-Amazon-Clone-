@@ -1,0 +1,346 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.navbar{
+    height: 60px;
+}
+.logo {
+    width: 120px;
+    height: 40px;
+    text-align:center;
+    padding: 5px;
+}
+.log:hover{
+    border: 1px solid white;
+}
+.location{
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+    font-size: small;
+}
+.location:hover{
+    border: 1px solid white;
+}
+.all{
+    margin-right: 900px;
+}
+.input1{
+    width: 550px;
+    margin-top: 15px;
+}
+.search{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.flag{
+    width: 25px;
+    height: 20px;
+}
+.pk{
+    text-align: center;
+    padding: 5px;
+    width: 90px;
+}
+.pk:hover{
+    border: 1px solid white;
+}
+.signin{
+    font-size: small;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 130px;
+}
+.signin:hover{
+    border: 1px solid white;
+}
+.return{
+    font-size: small;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 90px;
+}
+.return:hover{
+    border: 1px solid white;
+}
+.cart{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 90px;
+}
+.cart:hover{
+    border: 1px solid white;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    position: absolute;
+    top: 360px;
+}
+.cont a{
+    text-decoration: none;
+}
+.class1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+}
+.class1 img{
+    width: 130px;
+    height: 120px;
+    padding: 5px;
+}
+
+.class2{
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.class2 img{
+    width: 100%;
+    height: 280px;
+}
+.class3{
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.class3 img {
+    width: 100%;
+    height: 280px;
+}
+.class4{
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.class4 img {
+    width: 100%;
+    height: 280px;
+}
+.class5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+}
+.class5 img{
+    width: 130px;
+    height: 120px;
+    padding: 5px;
+}
+.class6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+}
+.class6 img{
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+}
+.class7{
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.class7 img {
+    width: 100%;
+    height: 280px;
+}
+.class8{
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.class8 img {
+    width: 100%;
+    height: 280px;
+}
+.top{
+    margin-top: 650px;
+    margin-left: 10px;
+    background-color: white;
+    margin-right: 20px;
+}
+.top_seller{
+    width: 98%;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    overflow-x: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.deal{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.deal a{
+    text-decoration: none;
+    font-size: large;
+}
+.deals{
+    margin-left: 10px;
+    margin-right: 20px;
+    overflow-x: scroll;
+    display: flex;
+}
+.gold{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.dove{
+    height: 200px;
+    width: 150px;
+}
+.child{
+    width: 140px;
+    height: 170px;
+}
+.sport{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sign button{
+    background-color: rgba(211, 211, 11, 0.541);
+    color: black;
+    width: 230px;
+}
+.sign button:hover{
+    background-color: rgba(211, 211, 11, 0.541);
+    color: black;
+}
+.sign a{
+    text-decoration: none;
+}
+.back{
+    width: 100%;
+    background-color: rgba(48, 46, 46, 0.767);
+    height: 40px;
+    text-align: center;
+}
+.back a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: rgba(26, 22, 22, 0.849);
+    color: white;
+}
+.get ul{
+    list-style: none;
+}
+.footer h5{
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .class7 , .class8{
+        display: none;
+    }
+    .top{
+        margin-top: 760px;
+    }
+    .cont2 .class4{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+        .class1 , .class2 , .class3, .class4, .class5, .class6, .class7, .class8{
+            width: 350px;
+        }
+        .top{
+            margin-top: 1340px;
+        }
+        .cont2 .class4{
+            display: block;
+        }
+        .signin , .return{
+            display: none;
+        }
+        .footer{
+            flex-wrap: nowrap;
+            font-size: small;
+        }
+}
+@media screen and (max-width:425px){
+    .class1 , .class2 , .class3, .class4, .class5, .class6, .class7, .class8{
+        width: 370px;
+        margin-left: 25px;
+    }
+    .top{
+        margin-top: 2680px;
+    }
+    .location , .pk , .cart{
+        display: none;
+    }
+    .class1 img{
+        width: 150px;
+    }
+    .cont .class1 img {
+        width: 160px;
+    }
+}
